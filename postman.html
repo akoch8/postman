@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Postman extension</title>
+        <link rel="stylesheet" type="text/css" href="postman.css" />
+        <script src="javascript/postman.js"></script>
+    </head>
+    <body>
+        <img src="images/postcard.png" alt="" width="400" class="bg"/>
+        
+        <div id="nameUnknown">
+            <div id="leftColumn">
+                <div id="leftColumnContent">
+                    <p>
+                        Hi!<br/><br/>
+                        It seems like we haven't met before. Just enter your name on the right so I can add it to your mail.<br/><br/>
+                        Thanks!
+                    </p>
+                    <span class="signature">mr. Postman</span>
+                </div>
+            </div>
+            <div id="rightColumn">
+                <div id="rightColumnContent">
+                    <form id="enterNameForm">
+                        name:<br/>
+                        <input type="text" id="username"/>
+                        <input type="button" id="sendNameButton" value="Here you go!"/>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div id="nameKnown">
+            <div id="leftColumn" class="nameKnownClass">
+                <div id="leftColumnContent">
+                    Check out this web page!<br/>
+                    <div id="linkURL"></div><br/>
+                    <div id="sender" class="signature"></div>
+                </div>
+            </div>
+            <div id="rightColumn">
+                <div id="rightColumnContent">
+                    Send to:<br/>
+                    <div id="email">
+                        <form id="emailForm">
+                            <input type="text" id="emailInput"/><br/>
+                            <div id="emailSearch"></div>
+                            <input type="button" id="sendMailButton" value="Run Postman!"/>
+                            <div id="errorMessage"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <input type="button" id="resetButton" value="reset"/>
+        </div>
+        
+    </body>
+</html>

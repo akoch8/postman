@@ -1,0 +1,202 @@
+@font-face {font-family: 'MountainsofChristmas'; src: url('chrome-extension://__MSG_@@extension_id__/fonts/MountainsofChristmas.ttf');};
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-width: 400px;
+    margin: 0;
+    padding: 5px;
+}
+
+img {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bg {
+    top:0;
+    left:0;
+}
+
+#nameUnknown {
+    display: block;
+    position:absolute;
+    top:0;
+    left:0;
+    color: #101B62;
+    font-family: MountainsofChristmas, Arial, sans-serif;
+    font-size:18px;
+    width: 400px;
+}
+
+#nameKnown {
+    display: none;
+    position:absolute;
+    top:0;
+    left:0;
+    color: #101B62;
+    font-family: MountainsofChristmas, Arial, sans-serif;
+    font-size:18px;
+    width: 400px;
+}
+
+#leftColumn {
+    width: 50%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+#leftColumn.nameKnownClass {
+    padding-top:30px;
+}
+
+#leftColumnContent {
+    position: relative;
+    max-width: 80%;
+    float: left;
+    margin: 25px 5px 20px 25px;
+    padding:2px;
+}
+
+.signature {
+    margin-top:20px;
+    position: relative;
+    left: 90px;
+    bottom: 30px;
+    font-size: 14px;
+}
+
+#linkURL {
+    font-size: 16px;
+    margin-top: 10px;
+    /* wrap the text inside the div */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+#rightColumn {
+    width: 50%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+#rightColumnContent {
+    position: relative;
+    max-width: 90%;
+    float: left;
+    margin: 100px 0 20px 15px;
+    padding:2px;
+}
+
+#enterNameForm {
+    font-size: 18px;
+}
+
+
+/*
+
+input styling
+
+*/
+
+#email {
+    margin-top:10px;
+    width:150px;
+    height:40px;
+}
+
+input {
+    font-family: MountainsofChristmas, arial;
+    color: #101B62;
+    margin: 8px 0px 0px 0px;
+    padding-left: 2px;
+    background-color: transparent;
+    width: 160px;
+    border:none;
+}
+#username {
+    font-size: 20px;
+}
+#emailInput {
+    font-size: 14px;
+}
+
+input:focus {
+    outline:none;
+}
+
+/*
+ 
+link styling
+
+*/
+
+#sendMailButton, #sendNameButton {
+    font-size: 18px;
+    padding: 2px;
+    margin-top: 10px;
+    text-align: left;
+    transition: color 0.2s;
+}
+#resetButton {
+    /*clear: both;*/
+    position: absolute;
+    left: 280px;
+    top: 240px;
+    font-size: 14px;
+    padding: 2px;
+    transition: color 0.2s;
+}
+#sendNameButton:hover, #sendMailButton:hover, #resetButton:hover {
+    cursor: pointer;
+    color: #5D7EA5;
+}
+
+#emailSearch {
+    position: absolute;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px 4px;
+    padding: 4px 4px 4px 4px;
+    background-color: #FCF6C6;
+    visibility: hidden;
+}
+#emailSearch.hidden {
+    visibility: hidden;
+}
+#emailSearch.visible {
+    visibility: visible;
+}
+.suggestionMouseOver {
+    color: #5D7EA5;
+    padding: 1px 1px 1px 4px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.suggestionMouseOut {
+    color: #101B62;
+    padding: 1px 1px 1px 4px;
+    cursor: default;
+    transition: color 0.2s;
+}
+
+#errorMessage {
+    margin-top: 10px;
+    font-size: 14px;
+}
+#errorMessage a {
+    color: #B5352B;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+#errorMessage a:hover {
+    color: #ED3224;
+}
+

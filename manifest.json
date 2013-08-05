@@ -1,0 +1,29 @@
+{
+    
+    "manifest_version": 2,
+    
+    "name": "Postman",
+    "description": "Send a link to the web page you're on to your friends.",
+    "version": "1.0",
+    
+    "browser_action": {
+        "default_icon": {
+            "19": "images/icon19.png",
+            "38": "images/icon38.png"
+        },
+        "default_popup": "postman.html",
+        "default_title": "Postman"
+    },
+    
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+    
+    // the extension uses the chrome.tabs module, so we need to set the appropriate permissions
+    "permissions": [
+        "tabs"
+    ]
+    
+}
