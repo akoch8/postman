@@ -1,2 +1,9 @@
-<h1>Postman</h1>
+Postman
+
+Postman is a small Chrome extension that allows you to mail the link to the  page you're looking at in your browser to a friend.
+Once you've entered someone's e-mail address Postman will remember it (using html5 storage) and a suggestion box with e-mail addresses will pop up next time you enter one. The html5 storage can be cleared by clicking "reset" in the lower right corner.
+
+So as you can see, nothing too fancy going on here. This was really nothing more than a personal exercise. Feel free to have a look and play around with it!
+
+Alex
 
