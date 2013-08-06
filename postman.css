@@ -29,7 +29,7 @@ img {
     left:0;
     color: #101B62;
     font-family: MountainsofChristmas, Arial, sans-serif;
-    font-size:18px;
+    font-size:16px;
     width: 400px;
 }
 
@@ -64,10 +64,10 @@ img {
 }
 
 .signature {
-    margin-top:20px;
+    margin-top:30px;
     position: relative;
     left: 90px;
-    bottom: 30px;
+    bottom: 20px;
     font-size: 14px;
 }
 
