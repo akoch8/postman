@@ -8,7 +8,7 @@ Postman is a small Chrome extension that allows you to mail the link to the  pag
 * **installation**
 	- Start by downloading or forking the Postman repository.
 	- Next, open your Google Chrome browser and open the extensions page (chrome://extensions).
-	- Click "unload unpacked extensionÉ" and select your Postman directory.
+	- Click "unload unpacked extension" (make sure developer mode is checked) and select your Postman directory.
 	- Done!
 
 * **usage**
